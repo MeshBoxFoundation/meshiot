@@ -21,11 +21,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/MeshBoxFoundation/meshiot/common"
+	"github.com/MeshBoxFoundation/meshiot/common/hexutil"
+	"github.com/MeshBoxFoundation/meshiot/core/rawdb"
+	"github.com/MeshBoxFoundation/meshiot/core/state"
+	"github.com/MeshBoxFoundation/meshiot/params"
 )
 
 func TestMemoryGasCost(t *testing.T) {

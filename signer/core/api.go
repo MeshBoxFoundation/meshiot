@@ -25,17 +25,17 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/accounts/scwallet"
-	"github.com/ethereum/go-ethereum/accounts/usbwallet"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/MeshBoxFoundation/meshiot/accounts"
+	"github.com/MeshBoxFoundation/meshiot/accounts/keystore"
+	"github.com/MeshBoxFoundation/meshiot/accounts/scwallet"
+	"github.com/MeshBoxFoundation/meshiot/accounts/usbwallet"
+	"github.com/MeshBoxFoundation/meshiot/common"
+	"github.com/MeshBoxFoundation/meshiot/common/hexutil"
+	"github.com/MeshBoxFoundation/meshiot/internal/ethapi"
+	"github.com/MeshBoxFoundation/meshiot/log"
+	"github.com/MeshBoxFoundation/meshiot/rpc"
+	"github.com/MeshBoxFoundation/meshiot/signer/core/apitypes"
+	"github.com/MeshBoxFoundation/meshiot/signer/storage"
 )
 
 const (

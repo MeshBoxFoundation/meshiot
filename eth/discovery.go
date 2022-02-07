@@ -17,10 +17,10 @@
 package eth
 
 import (
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/MeshBoxFoundation/meshiot/core"
+	"github.com/MeshBoxFoundation/meshiot/core/forkid"
+	"github.com/MeshBoxFoundation/meshiot/p2p/enode"
+	"github.com/MeshBoxFoundation/meshiot/rlp"
 )
 
 // ethEntry is the "eth" ENR entry which advertises eth protocol

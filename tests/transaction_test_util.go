@@ -19,12 +19,12 @@ package tests
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/MeshBoxFoundation/meshiot/common"
+	"github.com/MeshBoxFoundation/meshiot/common/hexutil"
+	"github.com/MeshBoxFoundation/meshiot/core"
+	"github.com/MeshBoxFoundation/meshiot/core/types"
+	"github.com/MeshBoxFoundation/meshiot/params"
+	"github.com/MeshBoxFoundation/meshiot/rlp"
 )
 
 // TransactionTest checks RLP decoding and sender derivation of transactions.

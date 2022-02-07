@@ -20,10 +20,10 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/MeshBoxFoundation/meshiot/common"
+	"github.com/MeshBoxFoundation/meshiot/ethdb"
+	"github.com/MeshBoxFoundation/meshiot/log"
+	"github.com/MeshBoxFoundation/meshiot/metrics"
 )
 
 // wipeKeyRange deletes a range of keys from the database starting with prefix

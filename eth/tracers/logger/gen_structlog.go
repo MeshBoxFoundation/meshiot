@@ -5,10 +5,10 @@ package logger
 import (
 	"encoding/json"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/MeshBoxFoundation/meshiot/common"
+	"github.com/MeshBoxFoundation/meshiot/common/hexutil"
+	"github.com/MeshBoxFoundation/meshiot/common/math"
+	"github.com/MeshBoxFoundation/meshiot/core/vm"
 	"github.com/holiman/uint256"
 )
 

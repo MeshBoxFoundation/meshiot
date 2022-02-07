@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/common/prque"
+	"github.com/MeshBoxFoundation/meshiot/common/mclock"
+	"github.com/MeshBoxFoundation/meshiot/common/prque"
 )
 
 // cmNodeFields are ClientNode fields used by the client manager

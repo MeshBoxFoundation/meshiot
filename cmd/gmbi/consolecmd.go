@@ -22,10 +22,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/console"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/MeshBoxFoundation/meshiot/cmd/utils"
+	"github.com/MeshBoxFoundation/meshiot/console"
+	"github.com/MeshBoxFoundation/meshiot/node"
+	"github.com/MeshBoxFoundation/meshiot/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

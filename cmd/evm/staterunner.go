@@ -23,11 +23,11 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/MeshBoxFoundation/meshiot/core/state"
+	"github.com/MeshBoxFoundation/meshiot/core/vm"
+	"github.com/MeshBoxFoundation/meshiot/eth/tracers/logger"
+	"github.com/MeshBoxFoundation/meshiot/log"
+	"github.com/MeshBoxFoundation/meshiot/tests"
 
 	"gopkg.in/urfave/cli.v1"
 )

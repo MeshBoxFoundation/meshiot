@@ -22,7 +22,7 @@ package keystore
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/MeshBoxFoundation/meshiot/log"
 	"github.com/rjeczalik/notify"
 )
 

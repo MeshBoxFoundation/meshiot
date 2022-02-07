@@ -25,17 +25,17 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state/snapshot"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/eth/protocols/snap"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/MeshBoxFoundation/meshiot"
+	"github.com/MeshBoxFoundation/meshiot/common"
+	"github.com/MeshBoxFoundation/meshiot/core/rawdb"
+	"github.com/MeshBoxFoundation/meshiot/core/state/snapshot"
+	"github.com/MeshBoxFoundation/meshiot/core/types"
+	"github.com/MeshBoxFoundation/meshiot/eth/protocols/eth"
+	"github.com/MeshBoxFoundation/meshiot/eth/protocols/snap"
+	"github.com/MeshBoxFoundation/meshiot/ethdb"
+	"github.com/MeshBoxFoundation/meshiot/event"
+	"github.com/MeshBoxFoundation/meshiot/log"
+	"github.com/MeshBoxFoundation/meshiot/params"
 )
 
 var (

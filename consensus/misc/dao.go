@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/MeshBoxFoundation/meshiot/core/state"
+	"github.com/MeshBoxFoundation/meshiot/core/types"
+	"github.com/MeshBoxFoundation/meshiot/params"
 )
 
 var (

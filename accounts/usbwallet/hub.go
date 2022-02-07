@@ -23,9 +23,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/MeshBoxFoundation/meshiot/accounts"
+	"github.com/MeshBoxFoundation/meshiot/event"
+	"github.com/MeshBoxFoundation/meshiot/log"
 	"github.com/karalabe/usb"
 )
 

@@ -22,12 +22,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/tracers"
+	"github.com/MeshBoxFoundation/meshiot/common"
+	"github.com/MeshBoxFoundation/meshiot/common/hexutil"
+	"github.com/MeshBoxFoundation/meshiot/core"
+	"github.com/MeshBoxFoundation/meshiot/core/vm"
+	"github.com/MeshBoxFoundation/meshiot/crypto"
+	"github.com/MeshBoxFoundation/meshiot/eth/tracers"
 )
 
 func init() {

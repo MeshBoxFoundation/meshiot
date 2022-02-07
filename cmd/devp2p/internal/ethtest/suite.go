@@ -19,10 +19,10 @@ package ethtest
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/MeshBoxFoundation/meshiot/common"
+	"github.com/MeshBoxFoundation/meshiot/eth/protocols/eth"
+	"github.com/MeshBoxFoundation/meshiot/internal/utesting"
+	"github.com/MeshBoxFoundation/meshiot/p2p/enode"
 )
 
 // Suite represents a structure used to test a node's conformance

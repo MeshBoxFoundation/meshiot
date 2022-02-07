@@ -21,12 +21,12 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/MeshBoxFoundation/meshiot/common"
+	"github.com/MeshBoxFoundation/meshiot/core/rawdb"
+	"github.com/MeshBoxFoundation/meshiot/core/state"
+	"github.com/MeshBoxFoundation/meshiot/core/vm"
+	"github.com/MeshBoxFoundation/meshiot/crypto"
+	"github.com/MeshBoxFoundation/meshiot/params"
 )
 
 // Config is a basic type specifying certain configuration flags for running

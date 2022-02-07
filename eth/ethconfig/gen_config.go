@@ -6,13 +6,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/gasprice"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/MeshBoxFoundation/meshiot/common"
+	"github.com/MeshBoxFoundation/meshiot/consensus/ethash"
+	"github.com/MeshBoxFoundation/meshiot/core"
+	"github.com/MeshBoxFoundation/meshiot/eth/downloader"
+	"github.com/MeshBoxFoundation/meshiot/eth/gasprice"
+	"github.com/MeshBoxFoundation/meshiot/miner"
+	"github.com/MeshBoxFoundation/meshiot/params"
 )
 
 // MarshalTOML marshals as TOML.

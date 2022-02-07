@@ -19,9 +19,9 @@ package rawdb
 import (
 	"encoding/binary"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/MeshBoxFoundation/meshiot/common"
+	"github.com/MeshBoxFoundation/meshiot/ethdb"
+	"github.com/MeshBoxFoundation/meshiot/log"
 )
 
 // ReadSnapshotDisabled retrieves if the snapshot maintenance is disabled.

@@ -41,23 +41,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/ethstats"
-	"github.com/ethereum/go-ethereum/les"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/MeshBoxFoundation/meshiot/accounts"
+	"github.com/MeshBoxFoundation/meshiot/accounts/keystore"
+	"github.com/MeshBoxFoundation/meshiot/cmd/utils"
+	"github.com/MeshBoxFoundation/meshiot/common"
+	"github.com/MeshBoxFoundation/meshiot/core"
+	"github.com/MeshBoxFoundation/meshiot/core/types"
+	"github.com/MeshBoxFoundation/meshiot/eth/downloader"
+	"github.com/MeshBoxFoundation/meshiot/eth/ethconfig"
+	"github.com/MeshBoxFoundation/meshiot/ethclient"
+	"github.com/MeshBoxFoundation/meshiot/ethstats"
+	"github.com/MeshBoxFoundation/meshiot/les"
+	"github.com/MeshBoxFoundation/meshiot/log"
+	"github.com/MeshBoxFoundation/meshiot/node"
+	"github.com/MeshBoxFoundation/meshiot/p2p"
+	"github.com/MeshBoxFoundation/meshiot/p2p/enode"
+	"github.com/MeshBoxFoundation/meshiot/p2p/nat"
+	"github.com/MeshBoxFoundation/meshiot/params"
 	"github.com/gorilla/websocket"
 )
 
@@ -469,7 +469,7 @@ func (f *faucet) apiHandler(w http.ResponseWriter, r *http.Request) {
 			id = username
 		default:
 			//lint:ignore ST1005 This error is to be displayed in the browser
-			err = errors.New("Something funky happened, please open an issue at https://github.com/ethereum/go-ethereum/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/MeshBoxFoundation/meshiot/issues")
 		}
 		if err != nil {
 			if err = sendError(wsconn, err); err != nil {

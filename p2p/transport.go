@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/bitutil"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/MeshBoxFoundation/meshiot/common"
+	"github.com/MeshBoxFoundation/meshiot/common/bitutil"
+	"github.com/MeshBoxFoundation/meshiot/metrics"
+	"github.com/MeshBoxFoundation/meshiot/p2p/rlpx"
+	"github.com/MeshBoxFoundation/meshiot/rlp"
 )
 
 const (

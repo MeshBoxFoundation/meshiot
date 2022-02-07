@@ -19,9 +19,9 @@ package downloader
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/MeshBoxFoundation/meshiot/common"
+	"github.com/MeshBoxFoundation/meshiot/eth/protocols/eth"
+	"github.com/MeshBoxFoundation/meshiot/log"
 )
 
 // bodyQueue implements typedQueue and is a type adapter between the generic

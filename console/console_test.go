@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/MeshBoxFoundation/meshiot/common"
+	"github.com/MeshBoxFoundation/meshiot/consensus/ethash"
+	"github.com/MeshBoxFoundation/meshiot/console/prompt"
+	"github.com/MeshBoxFoundation/meshiot/core"
+	"github.com/MeshBoxFoundation/meshiot/eth"
+	"github.com/MeshBoxFoundation/meshiot/eth/ethconfig"
+	"github.com/MeshBoxFoundation/meshiot/internal/jsre"
+	"github.com/MeshBoxFoundation/meshiot/miner"
+	"github.com/MeshBoxFoundation/meshiot/node"
 )
 
 const (

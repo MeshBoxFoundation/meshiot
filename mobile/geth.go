@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/ethstats"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/les"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/MeshBoxFoundation/meshiot/core"
+	"github.com/MeshBoxFoundation/meshiot/eth/downloader"
+	"github.com/MeshBoxFoundation/meshiot/eth/ethconfig"
+	"github.com/MeshBoxFoundation/meshiot/ethclient"
+	"github.com/MeshBoxFoundation/meshiot/ethstats"
+	"github.com/MeshBoxFoundation/meshiot/internal/debug"
+	"github.com/MeshBoxFoundation/meshiot/les"
+	"github.com/MeshBoxFoundation/meshiot/node"
+	"github.com/MeshBoxFoundation/meshiot/p2p"
+	"github.com/MeshBoxFoundation/meshiot/p2p/nat"
+	"github.com/MeshBoxFoundation/meshiot/params"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Geth

@@ -19,15 +19,15 @@ package main
 import (
 	"strconv"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/accounts/external"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/contracts/checkpointoracle"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/MeshBoxFoundation/meshiot/accounts"
+	"github.com/MeshBoxFoundation/meshiot/accounts/abi/bind"
+	"github.com/MeshBoxFoundation/meshiot/accounts/external"
+	"github.com/MeshBoxFoundation/meshiot/cmd/utils"
+	"github.com/MeshBoxFoundation/meshiot/common"
+	"github.com/MeshBoxFoundation/meshiot/contracts/checkpointoracle"
+	"github.com/MeshBoxFoundation/meshiot/ethclient"
+	"github.com/MeshBoxFoundation/meshiot/params"
+	"github.com/MeshBoxFoundation/meshiot/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

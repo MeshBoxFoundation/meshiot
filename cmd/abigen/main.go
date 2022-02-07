@@ -25,13 +25,13 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common/compiler"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/MeshBoxFoundation/meshiot/accounts/abi"
+	"github.com/MeshBoxFoundation/meshiot/accounts/abi/bind"
+	"github.com/MeshBoxFoundation/meshiot/cmd/utils"
+	"github.com/MeshBoxFoundation/meshiot/common/compiler"
+	"github.com/MeshBoxFoundation/meshiot/crypto"
+	"github.com/MeshBoxFoundation/meshiot/internal/flags"
+	"github.com/MeshBoxFoundation/meshiot/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

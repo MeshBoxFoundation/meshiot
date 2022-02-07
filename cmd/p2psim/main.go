@@ -45,12 +45,12 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/simulations"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/MeshBoxFoundation/meshiot/crypto"
+	"github.com/MeshBoxFoundation/meshiot/p2p"
+	"github.com/MeshBoxFoundation/meshiot/p2p/enode"
+	"github.com/MeshBoxFoundation/meshiot/p2p/simulations"
+	"github.com/MeshBoxFoundation/meshiot/p2p/simulations/adapters"
+	"github.com/MeshBoxFoundation/meshiot/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

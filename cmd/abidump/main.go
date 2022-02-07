@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
-	"github.com/ethereum/go-ethereum/signer/fourbyte"
+	"github.com/MeshBoxFoundation/meshiot/signer/core/apitypes"
+	"github.com/MeshBoxFoundation/meshiot/signer/fourbyte"
 )
 
 func init() {

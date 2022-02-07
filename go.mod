@@ -1,4 +1,4 @@
-module github.com/ethereum/go-ethereum
+module github.com/MeshBoxFoundation/meshiot
 
 go 1.15
 
