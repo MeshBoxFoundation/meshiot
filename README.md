@@ -2,16 +2,6 @@
 
 Official Golang implementation of the meshiot protocol.
 
-[![API Reference](
-https://camo.githubusercontent.com/915b7be44ada53c290eb157634330494ebe3e30a/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f676f6c616e672f6764646f3f7374617475732e737667
-)](https://pkg.go.dev/github.com/meshiot/meshiot?tab=doc)
-[![Go Report Card](https://goreportcard.com/badge/github.com/meshiot/meshiot)](https://goreportcard.com/report/github.com/meshiot/meshiot)
-[![Travis](https://travis-ci.com/meshiot/meshiot.svg?branch=master)](https://travis-ci.com/meshiot/meshiot)
-[![Discord](https://img.shields.io/badge/discord-join%20chat-blue.svg)](https://discord.gg/nthXNEv)
-
-Automated builds are available for stable releases and the unstable master branch. Binary
-archives are published at https://gmbi.meshiot.org/downloads/.
-
 ## Building the source
 
 For prerequisites and detailed build instructions please read the [Installation Instructions](https://gmbi.meshiot.org/docs/install-and-build/installing-gmbi).
